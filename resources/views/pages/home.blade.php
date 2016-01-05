@@ -1,6 +1,5 @@
 @extends('layout')
 
-
 @section('content')
     <div class="jumbotron">
         <h1>Theme example</h1>

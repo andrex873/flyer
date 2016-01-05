@@ -26,7 +26,12 @@ class FlyersController extends Controller
      */
     public function create()
     {
-        return view('flyers.create');
+        $countries = [
+            'col' => 'Colombia',
+            'usa' => 'USA',
+            'esp' => 'España',
+        ];
+        return view('flyers.create', compact('countries'));
     }
 
     /**

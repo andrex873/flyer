@@ -18,8 +18,8 @@ class CreateFlyersTable extends Migration
             $table->string('city');
             $table->string('zip', 10);
             $table->string('state');
-            $table->string('coutry');
-            $table->integer('proce');
+            $table->string('country');
+            $table->integer('price');
             $table->text('description');
             $table->timestamps();
         });

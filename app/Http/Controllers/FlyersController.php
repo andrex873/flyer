@@ -45,6 +45,8 @@ class FlyersController extends Controller
     {
         Flyer::create($request->all());
 
+        flash()->success('Exito', 'El registro fue creado en el sistema');
+
         return redirect()->back();
     }
 

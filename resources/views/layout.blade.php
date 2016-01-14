@@ -5,23 +5,15 @@
     <title>Flyer new</title>
 
     <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/libs.css">
 
 </head>
 <body>
     @include('partials.header')
     <div class="container">
         @yield('content')
-
-        <hr>
-        @if(count($errors) > 0)
-        <div class="alert alert-danger">
-            <ul>
-                @foreach($errors->all() as $error)
-                <li>{{ $error }}</li>
-                @endforeach
-            </ul>
-        </div>
-        @endif
     </div>
+    <script type="text/javascript" src="/js/libs.js"></script>
+    @include('partials.messages')
 </body>
 </html>

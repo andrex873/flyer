@@ -8303,3 +8303,7 @@ button.close {
 body {
   padding-top: 70px;
 }
+
+.form-control {
+  height: 39px;
+}

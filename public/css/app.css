@@ -8304,6 +8304,10 @@ body {
   padding-top: 70px;
 }
 
+img {
+  max-width: 100%;
+}
+
 .form-control {
   height: 39px;
 }
